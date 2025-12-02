@@ -1,0 +1,6 @@
+﻿services:
+  neazza.openai.transalot:
+    image: neazza.openai.transalot
+    build:
+      context: .
+      dockerfile: Neazza.OpenAI.Transalot/Dockerfile

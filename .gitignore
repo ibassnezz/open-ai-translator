@@ -1,0 +1,74 @@
+## Build results
+bin/
+obj/
+out/
+*.dll
+*.exe
+*.pdb
+*.log
+
+## NuGet
+*.nupkg
+*.snupkg
+.packages/
+.nuget/
+project.lock.json
+project.assets.json
+
+## Rider / JetBrains
+.idea/
+*.sln.iml
+
+## Visual Studio
+.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+## ASP.NET & Blazor
+wwwroot/*.map
+wwwroot/node_modules/
+wwwroot/dist/
+wwwroot/build/
+
+## Logs
+logs/
+*.log
+
+## System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+## Node 
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+## Environment settings
+*.env
+*.env.*
+
+## Publish output
+publish/
+*.pubxml
+*.pubxml.user
+
+## Temp
+*.tmp
+*.temp
+
+
+
+node_modules/
+wwwroot/css/*.css.map
+wwwroot/js/*.js.map
+wwwroot/**/*.min.*
+wwwroot/**/*.rtl.*
+wwwroot/**/bundle*.js
+wwwroot/**/bundle*.css
+dist/
+build/

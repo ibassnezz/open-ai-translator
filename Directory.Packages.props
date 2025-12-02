@@ -1,0 +1,15 @@
+﻿<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <EnablePackageVersionOverride>false</EnablePackageVersionOverride>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TARGET_FRAMEWORK>net9.0</TARGET_FRAMEWORK>
+    <MS_VERSION>[9.0.8]</MS_VERSION>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="$(MS_VERSION)" />
+    <PackageVersion Include="Microsoft.Extensions.Configuration.Abstractions" Version="$(MS_VERSION)" />
+    <PackageVersion Include="OpenAI" Version="2.7.0" />
+  </ItemGroup>
+</Project>

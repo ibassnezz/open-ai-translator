@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5F19F477-8367-44B0-AD24-1460954DCB49}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = Neaza.OpenAI.Transalot\docker-compose.yml
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neazza.OpenAI.Transalot.Core", "Neazza.OpenAI.Transalot.Core\Neazza.OpenAI.Transalot.Core.csproj", "{CE942111-7379-431D-AC9F-BB1D38D5AC1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neazza.OpenAI.Transalot", "Neazza.OpenAI.Transalot\Neazza.OpenAI.Transalot.csproj", "{8A932200-F0B1-42A7-9F64-335A536EE0E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE942111-7379-431D-AC9F-BB1D38D5AC1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE942111-7379-431D-AC9F-BB1D38D5AC1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE942111-7379-431D-AC9F-BB1D38D5AC1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE942111-7379-431D-AC9F-BB1D38D5AC1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A932200-F0B1-42A7-9F64-335A536EE0E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A932200-F0B1-42A7-9F64-335A536EE0E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A932200-F0B1-42A7-9F64-335A536EE0E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A932200-F0B1-42A7-9F64-335A536EE0E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

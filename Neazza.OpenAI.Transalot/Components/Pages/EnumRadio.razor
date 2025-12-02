@@ -1,0 +1,15 @@
+@typeparam TEnum where TEnum : struct, Enum
+
+@foreach (var value in Enum.GetValues<TEnum>())
+{
+<div class="form-check">
+    <input class="form-check-input"
+           type="radio"
+           name="@GroupName"
+           value="@value"
+           checked="@(EqualityComparer<TEnum>.Default.Equals(Value, value))"
+           @onchange="() => OnChanged(value)" />
+
+    <label class="form-check-label">@value</label>
+</div>
+}

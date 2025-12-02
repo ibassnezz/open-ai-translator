@@ -1,0 +1,12 @@
+@using Neazza.OpenAI.Transalot.Core
+<h3>Translator</h3>
+
+<div class="container gap-3">
+    <EnumRadio TEnum="PromptType" @bind-Value="SelectedPromptType"></EnumRadio>
+    <div class="">Text: </div>
+    <input class="form-control " @bind="OriginalText"/>
+    <p/>
+    <button class="btn btn-primary " @onclick="Translate">Translate</button>
+    <div class="">Result: </div>
+    <textarea class="form-control @(IsSuccess ? "": "border-error" )" @bind="TranslationText"/>
+</div>
