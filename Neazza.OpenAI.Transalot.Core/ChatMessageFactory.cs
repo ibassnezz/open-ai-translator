@@ -3,7 +3,7 @@ using OpenAI.Chat;
 #pragma warning disable OPENAI001
 namespace Neazza.OpenAI.Transalot.Core;
 
-public class ChatMessageFactory : IChatMessageFactory
+internal class ChatMessageFactory : IChatMessageFactory
 {
     
     public IReadOnlyCollection<ChatMessage> GetMessages(OriginalLexeme originalLexeme)
